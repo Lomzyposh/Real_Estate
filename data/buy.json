@@ -1,0 +1,1549 @@
+[
+    {
+        "basic": {
+            "id": "prop001",
+            "title": "Luxury 3-Bedroom Apartment in Downtown Manhattan",
+            "type": "Condas",
+            "status": "For Sale",
+            "price": 1350000,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "areaSqFt": 1600,
+            "yearBuilt": 2015,
+            "floorCount": 1,
+            "floorLevel": 15
+        },
+        "priceHistory": [
+            {
+                "date": "2023-11-01",
+                "price": 1300000,
+                "status": "Listed"
+            },
+            {
+                "date": "2024-05-20",
+                "price": 1350000,
+                "status": "Price Update"
+            }
+        ],
+        "location": {
+            "address": "120 Liberty St",
+            "city": "New York",
+            "state": "NY",
+            "zipcode": "10006",
+            "lat": 40.7099,
+            "lng": -74.0131
+        },
+        "media": {
+            "mainImage": "https://photos.zillowstatic.com/fp/c44952dcdb18c6e3ced34b1a0b1f6abf-cc_ft_576.webp",
+            "images": [
+                "https://photos.zillowstatic.com/fp/c44952dcdb18c6e3ced34b1a0b1f6abf-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/4569e128a803c21b95ecf9de1d9c473b-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/98d2b6ca08142bcbd7fb06aeea434856-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/2f62f9665fd0d28170238cc71878b8fb-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/9cfec17d36e7460b61915b06103c3681-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/7b89ae1e8d407b7b7d0bfc696b6235eb-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/ff551be1c571be5b1cf5325f6218e9c9-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/d425bd81bb214b009793a2bb3bcfd278-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/8b7183c5bdf9033a07d45d55c2f08e9d-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/a29371657c77943a6e0ab7850db29847-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/2973cf7040f04d9d540f6e9b9cee56e5-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/547d23cb5f9820b49916cc3dc49fa7e1-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/14f6e7429081be0ee22f8b371d037a40-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/42db68faaca4b2188d7a56f3cc1a3945-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/ce5d47cdca8fe57d711a0ccded999bc9-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/d3ccecd054c733e83c882f85052ab1ac-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/1c616374edd93d1d8171b6705d6dc671-cc_ft_576.webp"
+            ],
+            "description": "Live in the heart of Manhattan with this beautiful 3-bedroom apartment that offers stunning city views and luxury amenities."
+        },
+        "company": {
+            "agentId": "agent003",
+            "agency": "Cityline Realty",
+            "agencyLogo": "https://example.com/logos/cityline_realty.png",
+            "MLS": "CL123456"
+        },
+        "features": {
+            "flooring": "Marble",
+            "roof": "Concrete",
+            "fencing": "None",
+            "hasPool": false,
+            "hasGarden": false,
+            "hasBasement": false,
+            "furnished": true,
+            "hasFireplace": false,
+            "parking": {
+                "hasGarage": false,
+                "parkingSpaces": 1,
+                "parkFeatures": [
+                    "Underground Garage"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Kitchen",
+                    "Master Bedroom"
+                ],
+                "appliances": [
+                    "Refrigerator",
+                    "Oven",
+                    "Washer"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Quartz Countertops",
+                        "Smart Appliances"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "High-rise apartment with skyline views and modern interior finishes.",
+            "moreTextAboutThePlace": "Enjoy panoramic city views, cutting-edge smart home tech, and a modern layout ideal for urban living.",
+            "tags": [
+                "Skyline Views",
+                "Smart Home",
+                "Fitness Center Access"
+            ]
+        },
+        "timing": {
+            "listedDate": "2023-11-01",
+            "openHouse": [],
+            "lastCheckedDaysAgo": 10,
+            "lastUpdated": "2025-05-10T10:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Downtown Towers HOA",
+                "fee": 350
+            },
+            "name": "Downtown Manhattan Residences",
+            "amenities": [
+                "Doorman",
+                "Elevator",
+                "Gym"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 1,
+            "windFactor": 2,
+            "airFactor": 3,
+            "heatFactor": 3,
+            "airQualityIndex": 38,
+            "avgTemperature": 65,
+            "humidity": "High"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Seaside Elementary",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://seasideschool.edu"
+            },
+            "middle": {
+                "name": "Harborview Middle School",
+                "distanceMiles": 2.4,
+                "rating": 8,
+                "link": "https://harborviewmiddle.edu"
+            }
+        },
+        "engagement": {
+            "views": 210,
+            "saves": 35
+        },
+        "utility": {
+            "water": "City Water",
+            "sewage": "City Sewer",
+            "power": "Electric and Gas"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop002",
+            "title": "Cozy Suburban Home in Plano",
+            "type": "House",
+            "status": "For Sale",
+            "price": 450000,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "areaSqFt": 1800,
+            "yearBuilt": 2005,
+            "floorCount": 1,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2024-01-10",
+                "price": 435000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-04-18",
+                "price": 450000,
+                "status": "Price Update"
+            }
+        ],
+        "location": {
+            "address": "789 Oak Hill Dr",
+            "city": "Plano",
+            "state": "TX",
+            "zipcode": "75023",
+            "lat": 33.0571,
+            "lng": -96.7384
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/9be91ef331dd0a14fc5a00f56f7319e3-cc_ft_1152.webp",
+                "https://www.zillowstatic.com/floor_map/50b14a11-ff6b-4f49-8179-3fbb6305f3a7/hero.png",
+                "https://photos.zillowstatic.com/fp/e31859e246a94d495c3229ba1090a380-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/c9c9ebc19dbe0f149a721024b7af0e20-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/4775f22bf7c434f3cb19f12f045320a1-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/c15775b6f288d33a132513ae0e5db458-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/591ad940f0a9f031b5d77c40beca9d0c-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/ea015fe39aded069e003b8e9aeb3fa6f-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/cadf2c8cb7a5b26a8dc33ba82a8bc3e4-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/7c43c875dc6a433cc5f9faf8f35909bc-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/8c49465e8160571ae53e10c35746e1d4-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/ac4613b25cf20dfb0ae404fa880bedf2-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/f18bf1eebbb0962266f6027f04079684-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/153ba28fcdf0fe418b5bc7a6e8bb888b-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/2ffcd4b11c9085146a104661bda02bab-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/19b2a759be83d61bd1b436d7f7c7c245-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/0069ce61f9715d1d74ecd02b21cc0e46-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/dbe42b78775d581847190c4afb5c9a9b-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/796169c8e7f4ea766552fd0356edd65d-cc_ft_1152.webp"
+            ],
+            "description": "Charming 3-bedroom home in a quiet Plano neighborhood, perfect for families and first-time buyers."
+        },
+        "company": {
+            "agentId": "agent004",
+            "agency": "Texas Home Experts",
+            "agencyLogo": "https://example.com/logos/texas_home_experts.png",
+            "MLS": "TX987654"
+        },
+        "features": {
+            "flooring": "Carpet and Tile",
+            "roof": "Shingle",
+            "fencing": "Wood",
+            "hasPool": true,
+            "hasGarden": true,
+            "hasBasement": false,
+            "furnished": false,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 2,
+                "parkFeatures": [
+                    "Attached Garage",
+                    "Driveway"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Dining Room",
+                    "Kitchen"
+                ],
+                "appliances": [
+                    "Refrigerator",
+                    "Oven",
+                    "Dishwasher"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Tile Countertops",
+                        "Pantry"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "Lovely home with a fireplace and spacious backyard ideal for kids and pets.",
+            "moreTextAboutThePlace": "Located in a friendly suburban community, this home features a large fenced yard, cozy interior, and excellent access to schools and parks.",
+            "tags": [
+                "Fireplace",
+                "Large Backyard",
+                "Quiet Neighborhood"
+            ]
+        },
+        "timing": {
+            "listedDate": "2024-01-10",
+            "openHouse": [],
+            "lastCheckedDaysAgo": 8,
+            "lastUpdated": "2025-05-10T12:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": false,
+                "name": "",
+                "fee": 0
+            },
+            "name": "Oak Hill Subdivision",
+            "amenities": [
+                "Nearby Schools",
+                "Walking Trails",
+                "Community Park"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 2,
+            "fireFactor": 1,
+            "windFactor": 3,
+            "airFactor": 3,
+            "heatFactor": 4,
+            "airQualityIndex": 42,
+            "avgTemperature": 70,
+            "humidity": "Moderate"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Seaside Elementary",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://seasideschool.edu"
+            },
+            "middle": {
+                "name": "Harborview Middle School",
+                "distanceMiles": 2.4,
+                "rating": 8,
+                "link": "https://harborviewmiddle.edu"
+            },
+            "high": {
+                "name": "San Diego Coastal High",
+                "distanceMiles": 3.1,
+                "rating": 9,
+                "link": "https://sdcoastalhigh.edu"
+            }
+        },
+        "engagement": {
+            "views": 180,
+            "saves": 22
+        },
+        "utility": {
+            "water": "City Water",
+            "sewage": "City Sewer",
+            "power": "Electric Only"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop003",
+            "title": "Modern Beachside Villa in Malibu",
+            "type": "Villa",
+            "status": "For Sale",
+            "price": 3850000,
+            "bedrooms": 5,
+            "bathrooms": 4,
+            "areaSqFt": 4200,
+            "yearBuilt": 2019,
+            "floorCount": 2,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2024-02-15",
+                "price": 3750000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-03-01",
+                "price": 3850000,
+                "status": "Price Update"
+            }
+        ],
+        "location": {
+            "address": "15 Ocean Breeze Way",
+            "city": "Malibu",
+            "state": "CA",
+            "zipcode": "90265",
+            "lat": 34.0259,
+            "lng": -118.7798
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/7f63237be050d763718047077e4802b3-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/1596c008467b0f4d9c73b3b20a405df7-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/82ff588528a5218b41c3e980454df003-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/ca31e7552518a4c5294bce3dd7fca527-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/60b4176a0c0eb709b9b6fc6b41c5fb19-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/47e827aa249fe99ca4d7858db0a82fb4-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/fe557c1cf4bfee42dbbb508d8fd1a298-cc_ft_576.webp"
+            ],
+            "description": "Luxurious beachside villa with private pool, spacious deck, and panoramic ocean views."
+        },
+        "company": {
+            "agentId": "agent009",
+            "agency": "Pacific Dream Realty",
+            "agencyLogo": "https://example.com/logos/pacific_dream.png",
+            "MLS": "PD90265"
+        },
+        "features": {
+            "flooring": "Hardwood and Marble",
+            "roof": "Tile",
+            "fencing": "Glass",
+            "hasPool": true,
+            "hasGarden": true,
+            "hasBasement": false,
+            "furnished": true,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 3,
+                "parkFeatures": [
+                    "Detached Garage",
+                    "Covered Driveway"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Dining Room",
+                    "Kitchen",
+                    "Home Office"
+                ],
+                "appliances": [
+                    "Double Oven",
+                    "Wine Cooler",
+                    "Smart Fridge"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Chef’s Island",
+                        "Granite Countertops"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "Stunning Malibu villa steps from the beach with elegant interiors and ocean-facing infinity pool.",
+            "moreTextAboutThePlace": "This modern villa is built for ultimate comfort and style, featuring open-plan living spaces, smart home automation, and breathtaking sunset views from nearly every room.",
+            "tags": [
+                "Infinity Pool",
+                "Ocean View",
+                "Smart Home",
+                "Private Deck"
+            ]
+        },
+        "timing": {
+            "listedDate": "2024-02-15",
+            "openHouse": [],
+            "lastCheckedDaysAgo": 2,
+            "lastUpdated": "2025-05-10T09:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": false,
+                "name": "",
+                "fee": 0
+            },
+            "name": "Malibu Cove Estates",
+            "amenities": [
+                "Private Beach Access",
+                "Security Patrol"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 2,
+            "fireFactor": 4,
+            "windFactor": 3,
+            "airFactor": 2,
+            "heatFactor": 3,
+            "airQualityIndex": 45,
+            "avgTemperature": 68,
+            "humidity": "Low"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Tahoe Elementary",
+                "distanceMiles": 1.5,
+                "rating": 8,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123456-Tahoe-Elementary-School/"
+            },
+            "middle": {
+                "name": "Sierra Middle School",
+                "distanceMiles": 3.0,
+                "rating": 7,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123457-Sierra-Middle-School/"
+            },
+            "high": {
+                "name": "Lake Tahoe High",
+                "distanceMiles": 4.5,
+                "rating": 9,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123458-Lake-Tahoe-High-School/"
+            }
+        },
+        "engagement": {
+            "views": 340,
+            "saves": 47
+        },
+        "utility": {
+            "water": "City Water",
+            "sewage": "Septic System",
+            "power": "Electric and Solar"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop004",
+            "title": "Modern Townhouse in Downtown LA",
+            "type": "House",
+            "status": "For Sale",
+            "price": 680000,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "areaSqFt": 1900,
+            "yearBuilt": 2015,
+            "floorCount": 2,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2023-11-20",
+                "price": 650000,
+                "status": "Listed"
+            },
+            {
+                "date": "2024-05-15",
+                "price": 670000,
+                "status": "Price Update"
+            },
+            {
+                "date": "2025-02-25",
+                "price": 680000,
+                "status": "Price Increase"
+            }
+        ],
+        "location": {
+            "address": "202 Sunset Blvd",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipcode": "90012",
+            "lat": 34.0522,
+            "lng": -118.2437
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/a949ef404df040ef071c94892dbc4509-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/6328dbcc8b44502b5fe53735a9127776-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/b89b2bdb368fb7100de35fc2b6a95d73-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/e56eefa9b8748d1a8eea9ff669c5dfc2-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/23369ae6a46751c24311f90cda4cbfec-cc_ft_576.webp"
+            ],
+            "description": "Modern townhouse in downtown LA, steps from entertainment and culture. Enjoy sunset views, cozy interiors, and a private garage."
+        },
+        "company": {
+            "agentId": "agent008",
+            "agency": "LA Urban Homes",
+            "agencyLogo": "https://example.com/logos/la_urban_homes.png",
+            "MLS": "LAU456789"
+        },
+        "features": {
+            "flooring": "Laminate",
+            "roof": "Shingle",
+            "fencing": "None",
+            "hasPool": false,
+            "hasGarden": false,
+            "hasBasement": false,
+            "furnished": true,
+            "hasFireplace": false,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 1,
+                "parkFeatures": [
+                    "Private Garage",
+                    "Street Parking"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Kitchen",
+                    "Balcony",
+                    "Main Bedroom"
+                ],
+                "appliances": [
+                    "Microwave",
+                    "Refrigerator",
+                    "Dishwasher"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Quartz Countertops",
+                        "Backsplash",
+                        "Compact Island"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "Contemporary LA townhouse with city views and cozy interiors, ideal for urban professionals or small families.",
+            "moreTextAboutThePlace": "This home features a private balcony, modern appliances, and easy access to LA's hottest neighborhoods. It blends functionality with style in the heart of the city.",
+            "tags": [
+                "City Views",
+                "Private Balcony",
+                "Energy Efficient"
+            ]
+        },
+        "timing": {
+            "listedDate": "2023-11-20",
+            "openHouse": [],
+            "lastCheckedDaysAgo": 5,
+            "lastUpdated": "2025-05-12T09:15:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Sunset Townhomes HOA",
+                "fee": 95
+            },
+            "name": "Sunset Townhomes",
+            "amenities": [
+                "Community Rooftop",
+                "Elevator Access"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 4,
+            "windFactor": 2,
+            "airFactor": 3,
+            "heatFactor": 5,
+            "airQualityIndex": 52,
+            "avgTemperature": 75,
+            "humidity": "Moderate"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Briarwood Elementary School",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1835-Briarwood-Elementary-School/"
+            },
+            "middle": {
+                "name": "Greenwich Middle School",
+                "distanceMiles": 2.5,
+                "rating": 8,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1836-Greenwich-Middle-School/"
+            },
+            "high": {
+                "name": "Greenwich High School",
+                "distanceMiles": 3.1,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1837-Greenwich-High-School/"
+            }
+        },
+        "engagement": {
+            "views": 340,
+            "saves": 60
+        },
+        "utility": {
+            "water": "Municipal",
+            "sewage": "City Sewer",
+            "power": "Standard Connection"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop006",
+            "title": "Harborfront Luxury Residence",
+            "type": "House",
+            "status": "For Sale",
+            "price": 1550000,
+            "bedrooms": 5,
+            "bathrooms": 4.5,
+            "areaSqFt": 4200,
+            "yearBuilt": 2022,
+            "floorCount": 2,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2025-01-10",
+                "price": 1600000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-04-18",
+                "price": 1550000,
+                "status": "Price Reduced"
+            }
+        ],
+        "location": {
+            "address": "780 Bayfront Dr",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92101",
+            "lat": 32.7183,
+            "lng": -117.173
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/4d3e6b2e56ea608f077ffcd1f5348315-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/06d7029424086c4317b4e3ee6bb4b1c4-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/5d31d02571877d776b8072c73af4cf70-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/0584e4695f46e095bf20e7e2aa93aa6e-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/8363cd8b629adde3af84027788819042-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/ea1111765c9a1709d0f2d7176f177462-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/c3ab30fb4d7052235864516eb5e137a3-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/ae9b329403f6a88bfc169202063f8b59-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/e6cb443d81129ccf14eabcb9515ab4e6-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/75a1dddd2cf32d395f3374fd93c3b5d8-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/f03831f057b8c26c9f06c142502495a9-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/94bf1644bca6aba16dd4d8d0a1852a4f-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/2fcd4948771ccb903174917f4755b55f-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/7f0f781fd3c4adc1b391def0a40d6190-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/4be231d4e05a4a68e449a4cff0c38da1-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/d3e6721068912211e4c7d073a0887f0d-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/a3f035ac2c4242e01b1a82c900ef3851-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/82456f620bf88244e34ab66d2d653708-cc_ft_576.webp"
+            ],
+            "description": "Located directly on the bayfront, this exquisite residence stands as a beacon of modern architectural brilliance. Inside, the open-concept layout flows seamlessly from room to room, flooded with natural light and anchored by a gourmet chef’s kitchen. Premium finishes like marble flooring, custom cabinetry, and a glass staircase elevate every corner of the home. The exterior boasts a stunning outdoor kitchen, a sun-soaked terrace with ocean views, and a direct path to the water’s edge. Just minutes from downtown attractions, top-rated schools, and fine dining, this is a rare opportunity to own a slice of San Diego’s coastal elegance."
+        },
+        "company": {
+            "agentId": "agent007",
+            "agency": "Seaside Realty Group",
+            "agencyLogo": "https://example.com/logos/seaside_realty.png",
+            "MLS": "SDR123456"
+        },
+        "features": {
+            "flooring": "Marble",
+            "roof": "Flat Roof",
+            "fencing": "Glass",
+            "hasPool": true,
+            "hasGarden": true,
+            "hasBasement": false,
+            "furnished": true,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 4,
+                "parkFeatures": [
+                    "Direct Access",
+                    "Driveway",
+                    "Concrete",
+                    "Garage",
+                    "Garage Faces Front",
+                    "Garage Door Opener",
+                    "Oversized",
+                    "Private"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Gourmet Kitchen",
+                    "Dining Area",
+                    "Master Bedroom",
+                    "Guest Bedroom"
+                ],
+                "appliances": [
+                    "Smart Refrigerator",
+                    "Dishwasher",
+                    "Oven",
+                    "Central Vacuum"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Quartz Countertops",
+                        "Island",
+                        "High-end Appliances"
+                    ]
+                }
+            },
+            "exterior": [
+                "Ocean View Balcony",
+                "Wraparound Deck",
+                "Outdoor Kitchen",
+                "Landscaped Garden"
+            ]
+        },
+        "special": {
+            "aiDescription": "This harborfront luxury residence offers a breathtaking coastal living experience in the heart of San Diego. Wake up each morning to panoramic water views, high-end modern finishes, and expansive indoor and outdoor entertainment spaces. With over 4,000 square feet of living space, this home is a testament to luxury design and cutting-edge amenities, perfect for both everyday living and unforgettable gatherings.",
+            "moreTextAboutThePlace": "Experience the ultimate in coastal elegance with this stunning home featuring state-of-the-art smart home technology and exquisite indoor/outdoor living areas. The property boasts a private marina access and is located near premier shopping and dining districts.",
+            "tags": [
+                "Coastal Views",
+                "Luxury Finishes",
+                "Smart Home Features"
+            ]
+        },
+        "timing": {
+            "listedDate": "2025-01-10",
+            "openHouse": [
+                "2025-05-24T11:00:00",
+                "2025-05-25T14:00:00"
+            ],
+            "lastCheckedDaysAgo": 3,
+            "lastUpdated": "2025-05-15T10:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Bayfront Estates HOA",
+                "fee": 150
+            },
+            "name": "Bayfront Estates",
+            "amenities": [
+                "Community Marina",
+                "Fitness Center",
+                "24/7 Security"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 2,
+            "fireFactor": 1,
+            "windFactor": 3,
+            "airFactor": 38,
+            "heatFactor": 72,
+            "airQualityIndex": 40,
+            "avgTemperature": 70,
+            "humidity": "Low"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Seaside Elementary",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://seasideschool.edu"
+            },
+            "middle": {
+                "name": "Harborview Middle School",
+                "distanceMiles": 2.4,
+                "rating": 8,
+                "link": "https://harborviewmiddle.edu"
+            },
+            "high": {
+                "name": "San Diego Coastal High",
+                "distanceMiles": 3.1,
+                "rating": 9,
+                "link": "https://sdcoastalhigh.edu"
+            }
+        },
+        "engagement": {
+            "views": 5342,
+            "saves": 197
+        },
+        "utility": {
+            "water": "City",
+            "sewage": "City Sewer",
+            "power": "Solar + Grid"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop007",
+            "title": "Rustic Chic Mountain Retreat",
+            "type": "Cabin",
+            "status": "For Sale",
+            "price": 985000,
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "areaSqFt": 2950,
+            "yearBuilt": 2015,
+            "floorCount": 2,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2025-03-05",
+                "price": 985000,
+                "status": "Listed"
+            }
+        ],
+        "location": {
+            "address": "342 Summit Pine Trail",
+            "city": "Aspen",
+            "state": "CO",
+            "zipcode": "81611",
+            "lat": 39.1911,
+            "lng": -106.8175
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/f6dfe51b5f11fc8e2fe731f625a6bc0d-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/1e6bb10263c3f2c8ce8d9959be3b7578-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/9a23ed7c2c35faa988a336a0d87d92b9-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/68fab535e8c15d8d6b6257c86775c702-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/0d09116044fd6602c1f2887a1a60cf23-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/4c417c10287659f21c0cdec3813c5206-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/664316ba535c338d47c406984b8359b0-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/40705dc27f2273b43e8b2e650fcf9d1a-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/0bbb6a93e69803e8eef15398af7d77d5-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/6469dbf576eadfa835597a7650196efd-cc_ft_1152.webp"
+            ],
+            "description": "Set against the breathtaking backdrop of the Rockies, this home is a sanctuary for nature lovers and those seeking tranquility without sacrificing luxury."
+        },
+        "company": {
+            "agentId": "agent004",
+            "agency": "High Altitude Realty",
+            "agencyLogo": "https://example.com/logos/high_altitude_realty.png",
+            "MLS": "HAR123456"
+        },
+        "features": {
+            "flooring": "Hardwood",
+            "roof": "Metal",
+            "fencing": "Wooden",
+            "hasPool": false,
+            "hasGarden": true,
+            "hasBasement": true,
+            "furnished": true,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 3,
+                "parkFeatures": [
+                    "Detached Garage",
+                    "Driveway",
+                    "Gravel",
+                    "Private"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Kitchen",
+                    "Dining Room",
+                    "Master Bedroom",
+                    "Guest Bedroom"
+                ],
+                "appliances": [
+                    "Refrigerator",
+                    "Dishwasher",
+                    "Microwave",
+                    "Oven"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Granite Countertops",
+                        "Island",
+                        "Double Sink"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "This rustic chic mountain retreat offers a warm and inviting escape amidst Aspen’s natural landscape with luxury and comfort.",
+            "moreTextAboutThePlace": "The cabin features handcrafted woodwork, vaulted ceilings, and large windows framing stunning mountain views. Outside, enjoy a spacious deck with a hot tub and fire pit perfect for entertaining.",
+            "tags": [
+                "Rustic",
+                "Mountain",
+                "Luxury",
+                "Cozy"
+            ]
+        },
+        "timing": {
+            "listedDate": "2025-03-05",
+            "openHouse": [
+                "2025-05-20T13:00:00"
+            ],
+            "lastCheckedDaysAgo": 3,
+            "lastUpdated": "2025-05-15T10:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Aspen Ridge HOA",
+                "fee": 150
+            },
+            "name": "Aspen Ridge",
+            "amenities": [
+                "Mountain Lodge",
+                "Community Trails",
+                "Snow Removal"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 3,
+            "windFactor": 2,
+            "airFactor": 27,
+            "heatFactor": 45,
+            "airQualityIndex": 35,
+            "avgTemperature": 55,
+            "humidity": "Low"
+        },
+        "nearbySchools": {
+           "elementary": {
+                "name": "Briarwood Elementary School",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1835-Briarwood-Elementary-School/"
+            },
+            "middle": {
+                "name": "Greenwich Middle School",
+                "distanceMiles": 2.5,
+                "rating": 8,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1836-Greenwich-Middle-School/"
+            },
+            "high": {
+                "name": "Greenwich High School",
+                "distanceMiles": 3.1,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1837-Greenwich-High-School/"
+            }
+        },
+        "engagement": {
+            "views": 3178,
+            "saves": 153
+        },
+        "utility": {
+            "water": "Well",
+            "sewage": "Septic",
+            "power": "Grid"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop008",
+            "title": "Elegant Suburban Estate",
+            "type": "Single-Family Home",
+            "status": "For Sale",
+            "price": 1125000,
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "areaSqFt": 3600,
+            "yearBuilt": 2020,
+            "floorCount": 2,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2025-02-22",
+                "price": 1150000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-05-10",
+                "price": 1125000,
+                "status": "Price Reduced"
+            }
+        ],
+        "location": {
+            "address": "12 Briarwood Ln",
+            "city": "Greenwich",
+            "state": "CT",
+            "zipcode": "06830",
+            "lat": 41.0307,
+            "lng": -73.6288
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/02a5403af0cea936e62dfabd9661e98b-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/c65dbb653008bdb33b1175b98c486de7-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/0f1d6f142350c6829309b37fce75e597-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/e41d3c650b0e5f470aaf6f93eb264856-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/a9386d141c05ad5e7eb3364ae6837815-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/80ccd2d07587b8c5521b1f9ee9943ee6-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/457d4f3572e2ce818d7747b0f2a87f91-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/c6e2edea21fafed47d55abd4f44f20c6-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/199c1e61a4583b993f12375ee903f56a-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/1abbca76dcbf361d12a96077a651a213-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/654433bd211c92a0923dd215f62c52fb-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/1770a8eee7ee93dc3a8fdb4845d0eeea-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/5d8295d28d4bce869cf1e7484c7ae048-cc_ft_576.webp"
+            ],
+            "description": "A stunning suburban estate featuring spacious rooms, modern design, and lush landscaping perfect for family living."
+        },
+        "company": {
+            "agentId": "agent009",
+            "agency": "Colonial Realty",
+            "agencyLogo": "https://example.com/logos/colonial_realty.png",
+            "MLS": "CR06830"
+        },
+        "features": {
+            "flooring": "Oak Hardwood and Marble",
+            "roof": "Architectural Shingles",
+            "fencing": "White Picket Fence",
+            "hasPool": true,
+            "hasGarden": true,
+            "hasBasement": true,
+            "furnished": false,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 2,
+                "parkFeatures": [
+                    "Attached Garage",
+                    "Garage Door Opener",
+                    "Private Driveway"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "Living Room",
+                    "Dining Room",
+                    "Gourmet Kitchen",
+                    "Home Office",
+                    "Family Room"
+                ],
+                "appliances": [
+                    "Stainless Steel Refrigerator",
+                    "Dishwasher",
+                    "Double Oven",
+                    "Built-in Microwave",
+                    "Washing Machine"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Granite Countertops",
+                        "Center Island",
+                        "Walk-in Pantry"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "This elegant suburban estate combines classic architecture with modern amenities, perfect for sophisticated family living in a sought-after neighborhood.",
+            "moreTextAboutThePlace": "Step into this exquisite home with its warm, inviting interiors and meticulously maintained landscaping. The gourmet kitchen is a chef’s dream, featuring premium appliances and ample storage. Relax by the cozy fireplace or entertain guests in the expansive backyard with a sparkling pool and patio area. Located in a friendly community with top-rated schools and convenient access to city amenities, this home offers the perfect balance of luxury and comfort.",
+            "tags": [
+                "Family Home",
+                "Gourmet Kitchen",
+                "Swimming Pool",
+                "Fireplace",
+                "Attached Garage"
+            ]
+        },
+        "timing": {
+            "listedDate": "2025-02-22",
+            "openHouse": [
+                "2025-05-22T12:00:00"
+            ],
+            "lastCheckedDaysAgo": 5,
+            "lastUpdated": "2025-05-15T10:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Briarwood Community Association",
+                "fee": 250
+            },
+            "name": "Briarwood Heights",
+            "amenities": [
+                "Clubhouse",
+                "Tennis Courts",
+                "Walking Paths",
+                "Playground",
+                "Community Pool"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 2,
+            "windFactor": 3,
+            "airFactor": 45,
+            "heatFactor": 55,
+            "airQualityIndex": 40,
+            "avgTemperature": 62,
+            "humidity": "Medium"
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Briarwood Elementary School",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1835-Briarwood-Elementary-School/"
+            },
+            "middle": {
+                "name": "Greenwich Middle School",
+                "distanceMiles": 2.5,
+                "rating": 8,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1836-Greenwich-Middle-School/"
+            },
+            "high": {
+                "name": "Greenwich High School",
+                "distanceMiles": 3.1,
+                "rating": 9,
+                "link": "https://www.greatschools.org/connecticut/greenwich/1837-Greenwich-High-School/"
+            }
+        },
+        "engagement": {
+            "views": 2784,
+            "saves": 112
+        },
+        "utility": {
+            "water": "City Water",
+            "sewage": "Municipal Sewer",
+            "power": "Electric Grid with Backup Generator"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop009",
+            "title": "Lakeside Modern Glass Villa",
+            "type": "Villa",
+            "status": "For Sale",
+            "price": 2175000,
+            "bedrooms": 6,
+            "bathrooms": 5.5,
+            "areaSqFt": 5600,
+            "yearBuilt": 2021,
+            "floorCount": 3,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2025-02-01",
+                "price": 2250000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-05-01",
+                "price": 2175000,
+                "status": "Price Reduced"
+            }
+        ],
+        "location": {
+            "address": "900 Shoreline Dr",
+            "city": "Lake Tahoe",
+            "state": "CA",
+            "zipcode": "96150",
+            "lat": 38.9399,
+            "lng": -119.9772
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/17390d2cc4de7ab7cb917402efe325be-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/5a9bb12e3f4707191aecbbeab28c03e7-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/fd5b7fde9df268c793456651dcbfdfc7-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/c3a12ff48ed49bd76d413eb7b803b50a-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/3d5d25018bf17270d46e00cd6e4cf6fa-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/ee9f0328d5bf7fcc7a33d21ff53a3e88-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/fef88f1b8d77cc83982da30daeaa1e00-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/6a67582ad10d93508acc197a9ed87246-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/14f486f3a52cedc60d64b1070adb3545-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/db4ee18a3bdd85dfdec39433783f9e3c-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/d15065bf705344d644ba1d7ccd3e45e3-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/a17a8b39a2f63adb762b5bcdd8a77624-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/8e1d504735d94b78a69f90eca8c0aa93-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/11b23284561d3aad9d688c60ee09194c-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/47ce42a1c91e70b0f8eadb60c7457e6f-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/a438caa2c87ba7003711c3156dbda4cb-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/15a5dd88131f119dd93c01efa6b57c5d-cc_ft_576.webp"
+            ],
+            "description": "A breathtaking modern villa with floor-to-ceiling glass walls offering panoramic views of Lake Tahoe, complete with luxury amenities and eco-friendly design."
+        },
+        "company": {
+            "agentId": "agent005",
+            "agency": "Lakeside Estates Realty",
+            "agencyLogo": "https://example.com/logos/lakeside_estates_realty.png",
+            "MLS": "LE96215"
+        },
+        "features": {
+            "flooring": "Polished Concrete",
+            "roof": "Green Roof with Solar Panels",
+            "fencing": "None (Open Waterfront Access)",
+            "hasPool": true,
+            "hasGarden": true,
+            "hasBasement": true,
+            "furnished": true,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 5,
+                "parkFeatures": [
+                    "Direct Access",
+                    "Driveway",
+                    "Stone Pavers",
+                    "Garage",
+                    "Garage Faces Front",
+                    "Garage Door Opener",
+                    "Covered",
+                    "Private"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "All Bedrooms Upstairs",
+                    "Den",
+                    "Formal Dining Room",
+                    "Great Room",
+                    "Library",
+                    "Master Suite",
+                    "Home Theater",
+                    "Sauna"
+                ],
+                "appliances": [
+                    "Dishwasher",
+                    "Double Oven",
+                    "Gas Range",
+                    "Built-In Refrigerator",
+                    "Warming Drawer",
+                    "Microwave",
+                    "Washer",
+                    "Dryer",
+                    "Wine Cooler"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Quartz Countertops",
+                        "Chef's Island",
+                        "Custom Cabinetry"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "Experience refined lakeside living in this glass-fronted modern villa nestled on the tranquil shores of Lake Tahoe. Boasting panoramic water and mountain views, the home's floor-to-ceiling glass walls invite natural light throughout its spacious open-plan interiors. Smart technology is integrated into every facet of this residence, from climate and lighting control to security and entertainment. This architectural marvel blends seamlessly with its surroundings, providing a unique sanctuary that is both elegant and eco-conscious.",
+            "moreTextAboutThePlace": "The Lakeside Modern Glass Villa redefines luxury with sustainability, blending world-class comfort with the calming influence of nature. Designed by a renowned architect, every angle of this home captures a dramatic vista — whether it's sunrise over the lake or the serene twilight reflected off water. Multiple terraces offer private nooks for relaxation, while the heated infinity-edge pool seems to flow into the lake itself. A state-of-the-art gourmet kitchen, a custom wine cellar, and a home theater create spaces for unforgettable experiences. Positioned in a gated enclave just minutes from ski resorts and hiking trails, this estate is ideal for those seeking adventure without leaving luxury behind.",
+            "tags": [
+                "Modern",
+                "Lakefront",
+                "Eco-Friendly",
+                "Smart Home",
+                "Luxury Villa",
+                "Panoramic Views"
+            ]
+        },
+        "timing": {
+            "listedDate": "2025-02-01",
+            "openHouse": [
+                "2025-05-28T12:00:00",
+                "2025-06-01T15:00:00"
+            ],
+            "lastCheckedDaysAgo": 2,
+            "lastUpdated": "2025-05-15T14:00:00"
+        },
+        "community": {
+            "hoa": {
+                "hasHOA": true,
+                "name": "Crystal Waters Estates HOA",
+                "fee": 350
+            },
+            "name": "Crystal Waters Estates",
+            "amenities": [
+                "Private Marina",
+                "Walking Trails",
+                "Lakefront Picnic Area",
+                "Gated Community",
+                "24/7 Security"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 2,
+            "windFactor": 3,
+            "airQualityIndex": 24,
+            "avgTemperature": 60,
+            "humidity": "Medium",
+            "heatFactor": 40,
+            "airFactor": 30
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Tahoe Elementary",
+                "distanceMiles": 1.5,
+                "rating": 8,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123456-Tahoe-Elementary-School/"
+            },
+            "middle": {
+                "name": "Sierra Middle School",
+                "distanceMiles": 3.0,
+                "rating": 7,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123457-Sierra-Middle-School/"
+            },
+            "high": {
+                "name": "Lake Tahoe High",
+                "distanceMiles": 4.5,
+                "rating": 9,
+                "link": "https://www.greatschools.org/california/lake-tahoe/123458-Lake-Tahoe-High-School/"
+            }
+        },
+        "engagement": {
+            "views": 6210,
+            "saves": 220
+        },
+        "utility": {
+            "water": "City",
+            "sewage": "Connected",
+            "power": "Solar + Grid"
+        }
+    },
+    {
+        "basic": {
+            "id": "prop010",
+            "title": "Tahoe Island Dr, South Lake Tahoe",
+            "type": "House",
+            "status": "For Sale",
+            "price": 800000,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "areaSqFt": 1368,
+            "yearBuilt": 2021,
+            "floorCount": 1,
+            "floorLevel": 1
+        },
+        "priceHistory": [
+            {
+                "date": "2025-02-01",
+                "price": 850000,
+                "status": "Listed"
+            },
+            {
+                "date": "2025-05-01",
+                "price": 700000,
+                "status": "Price Reduced"
+            }
+        ],
+        "location": {
+            "address": "Tahoe Island Dr, South Lake Tahoe",
+            "city": "Lake Tahoe",
+            "state": "CA",
+            "zipcode": "96150",
+            "lat": 37.9399,
+            "lng": -119.9772
+        },
+        "media": {
+            "images": [
+                "https://photos.zillowstatic.com/fp/b0ead328d3306afde90d09892c6ffa63-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/1d2ba75fe8a0b2c78fda82225326b781-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/dae2488f5c22c11e8514508c4059ea0b-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/71497db2c13a8ad74a3f8342352c9fca-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/946d7ea63388ce43df27706438806f6b-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/8d6c678d432b345dc0b88a7878b4abc2-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/8e61859eb09087d6f40504381b1bc58f-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/ff26dfcb2da78e79fb836fe826903a22-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/6f66a6162a12955e26cee60e2a6afac8-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/451fab80d701f7c55dac69684f037d5f-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/8c606875bb528fabad85ea0ca45d9416-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/9dc6aa8cfd0b753ac06388f2a495f5a6-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/b53a7864ff34f68c5eb3a51bdf19a524-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/216af63f2a5edd12ba1cc6edb567a42d-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/6d7499ecdbddffd9e7508a476b7f0e6b-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/6ba1a5bae2be345bee76a6eb565d43bf-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/000d8a14fa8cc6ffd7bd294f3a9337da-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/8bbd60b86d32ada7ec855c0fe42c4703-cc_ft_1152.webp",
+                "https://photos.zillowstatic.com/fp/7bbaf2ad02b42029f439cb172f97cee8-cc_ft_576.webp",
+                "https://photos.zillowstatic.com/fp/a756089562ca0038e80d15678f101d52-cc_ft_1152.webp"
+            ]
+        },
+        "company": {
+            "agentId": "agent005",
+            "agency": "Lakeside Estates Realty",
+            "agencyLogo": "https://photos.zillowstatic.com/fp/dba79854b10c113ae71c4d7f0d9be79c-zillow_web_95_35.jpg",
+            "MLS": "141404"
+        },
+        "features": {
+            "flooring": "Polished Concrete",
+            "roof": "Green Roof",
+            "fencing": "None",
+            "hasPool": false,
+            "hasGarden": true,
+            "hasBasement": true,
+            "furnished": true,
+            "hasFireplace": true,
+            "parking": {
+                "hasGarage": true,
+                "parkingSpaces": 5,
+                "parkFeatures": [
+                    "Direct Access",
+                    "Driveway",
+                    "Stone Pavers",
+                    "Garage",
+                    "Garage Faces Front",
+                    "Garage Door Opener",
+                    "Covered",
+                    "Private"
+                ]
+            },
+            "interior": {
+                "rooms": [
+                    "All Bedrooms Up",
+                    "Den",
+                    "Formal Dining Room",
+                    "Great Room",
+                    "Library",
+                    "Master Suite",
+                    "Home Theater",
+                    "Sauna"
+                ],
+                "appliances": [
+                    "Dishwasher",
+                    "Double Oven",
+                    "Gas Range",
+                    "Built-In Fridge",
+                    "Warming Drawer",
+                    "Microwave",
+                    "Washer",
+                    "Dryer",
+                    "Wine Cooler"
+                ],
+                "kitchen": {
+                    "features": [
+                        "Quartz Countertops",
+                        "Chef's Island",
+                        "Custom Cabinetry"
+                    ]
+                }
+            }
+        },
+        "special": {
+            "aiDescription": "Experience refined lakeside living in this glass-fronted modern villa nestled on the tranquil shores of Lake Tahoe. Boasting panoramic water and mountain views, the home's floor-to-ceiling glass walls invite natural light throughout its spacious open-plan interiors. Smart technology is integrated into every facet of this residence, from climate and lighting control to security and entertainment. This architectural marvel blends seamlessly with its surroundings, providing a unique sanctuary that is both elegant and eco-conscious.",
+            "moreTextAboutThePlace": "The Lakeside Modern Glass Villa redefines luxury with sustainability, blending world-class comfort with the calming influence of nature. Designed by a renowned architect, every angle of this home captures a dramatic vista — whether it's sunrise over the lake or the serene twilight reflected off water. Multiple terraces offer private nooks for relaxation, while the heated infinity-edge pool seems to flow into the lake itself. A state-of-the-art gourmet kitchen, a custom wine cellar, and a home theater create spaces for unforgettable experiences. Positioned in a gated enclave just minutes from ski resorts and hiking trails, this estate is ideal for those seeking adventure without leaving luxury behind.",
+            "tags": [
+                "Luxury",
+                "Modern",
+                "Eco-Friendly",
+                "Lakefront",
+                "Smart Home",
+                "Gated Community",
+                "Infinity Pool",
+                "Architectural"
+            ]
+        },
+        "timing": {
+            "listedDate": "2025-02-01",
+            "openHouse": [
+                "2025-05-28T12:00:00",
+                "2025-06-01T15:00:00"
+            ]
+        },
+        "community": {
+            "name": "Crystal Waters Estates",
+            "amenities": [
+                "Private Marina",
+                "Walking Trails",
+                "Lakefront Picnic Area"
+            ]
+        },
+        "climateFactors": {
+            "floodFactor": 1,
+            "fireFactor": 2,
+            "windFactor": 3,
+            "airQualityIndex": 24,
+            "avgTemperature": 60,
+            "humidity": "Medium",
+            "heatFactor": 40,
+            "airFactor": 30
+        },
+        "nearbySchools": {
+            "elementary": {
+                "name": "Tahoe Elementary",
+                "distanceMiles": 1.2,
+                "rating": 9,
+                "link": "https://tahoe.scusd.edu"
+            },
+            "middle": {
+                "name": "Sierra Middle School",
+                "distanceMiles": 2.5,
+                "rating": 8,
+                "link": "https://sierramiddle.scusd.edu"
+            },
+            "high": {
+                "name": "Lake Tahoe High",
+                "distanceMiles": 3.0,
+                "rating": 9,
+                "link": "https://laketahoehigh.scusd.edu"
+            }
+        },
+        "engagement": {
+            "views": 6210,
+            "saves": 220
+        },
+        "utility": {
+            "water": "City",
+            "sewage": "Connected",
+            "power": "Solar + Grid"
+        }
+    }
+]

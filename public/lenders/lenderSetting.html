@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/public/css/lenderDash.css">
+</head>
+
+<body>
+    <header class="topnav">
+        <div class="topLogo">
+            <img src="/public/assets/images/homeLogo.png" alt="Logo">
+        </div>
+
+        <div class="topTit">
+            <h2>Settings</h2>
+            <!-- <span>Manage your account settings and prefernces</span> -->
+        </div>
+        <!-- <div class="second">
+            <input type="text" placeholder="Search here...">
+            <div class="searchGo">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </div>
+
+            <div id="searchSug" class="searchSug">
+                <div class="category">
+                    <h3>Category</h3>
+                    <select id="searchCat">
+                        <option value="all">All</option>
+                        <option value="clients">Clients</option>
+                    </select>
+                </div>
+            </div>
+        </div> -->
+        <div class="acccount">
+
+
+            <div class="themeBtn">
+                <i class="fa-solid fa-moon fa-xl dark"></i>
+            </div>
+            <div class="notification">
+
+                <div class="bell">
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="redDot"></div>
+                </div>
+            </div>
+            <div id="userDisplayName">
+                <div class="sideProfileImg">
+                    <img src="/public/assets/images/noDp.png" alt="profileImage">
+                    <div class="greenDot"></div>
+                </div>
+                <div class="name">
+                    <h3>UserName</h3>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hamburgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </header>
+
+    <aside class="sidebar">
+        <div class="icon">
+            <img src="/public/assets/images/homeLogo.png" alt="Logo">
+            <h2 class="logo-text"><span class="sideName">NestNova</span></h2>
+        </div>
+
+        <section id="sideMenu">
+            <div class="menu">
+                <ul>
+                    <li title="Overview">
+                        <i class="fa-solid fa-house"></i><span class="sideName"> Overview</span>
+                    </li>
+                    <li title="Offers"><i class="fa-regular fa-file-lines"></i><span class="sideName"> Offers</span>
+                        <div class="redDot"></div>
+                    </li>
+                    <li title="Clients">
+                        <i class="fa-solid fa-user-group"></i><span class="sideName"> Clients</span>
+                    </li>
+                    <li title="Chats">
+                        <i class="fa-solid fa-message"></i><span class="sideName"> Chats</span>
+                        <div class="redDot"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="financial">
+                <ul>
+                    <li title="Transaction"><i class="fa-regular fa-dollar"></i> <span class="sideName">Transaction
+                            Logs</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="history">
+                <ul>
+                    <li title="History"><i class="fa-regular fa-clock"></i> <span class="sideName">History</span>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </section>
+        <div class="setting">
+            <ul>
+                <li class="active" title="Setting"><i class="fa-solid fa-gear"></i><span class="sideName">Account
+                        Setting</span>
+                </li>
+                <li class="logout" id="verifyLogout" title="Logout"><i class="fa-solid fa-right-from-bracket "></i>
+                    <span class="sideName">Logout</span>
+                </li>
+            </ul>
+
+        </div>
+    </aside>
+
+    <div id="logoutConfirm">
+        <div class="logoutConfirmBox">
+            <h2>Are you sure you want to logout?</h2>
+            <div class="btns">
+                <button id="logoutCancelBtn">Cancel</button>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+        <!-- <button id="closeLogoutConfirm" class="close-btn" aria-label="Close">&times;</button> -->
+    </div>
+
+    <div id="sessionTimeout" class="session-timeout">
+        <div class="session-timeout-box">
+            <h2>Session Timed Out</h2>
+            <p>Your session has expired due to inactivity. Please log in again.</p>
+
+            <button id="sessionTimeoutLoginBtn">Go to Login Page</button>
+            <p class="timer">Redirecting in <span style="color: goldenrod; font-weight: bolder;">5</span> seconds...</p>
+        </div>
+    </div>
+
+    <main class="content">
+        <div class="navSetting">
+            <ul>
+                <!-- <li><strong>Account Settings</strong></li> -->
+                <li class="active"><a href="#">Profile</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Bank & Payment</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Preferences</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="/public/js/lenderJS/lenderDefault.js"></script>
+</body>
+
+</html>

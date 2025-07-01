@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest Nova</title>
+    <link rel="icon" href="./assets/images/homeLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="icon">
+            <img src="./assets/images/homeLogo.png" alt="">
+            <h2 class="logo-text">NestNova</h2>
+        </div>
+
+    </header>
+
+
+    <div class="themeBtn">
+        <i class="fa-solid fa-moon fa-xl dark"></i>
+    </div>
+
+
+
+    <div class="loaderDiv">
+        <div class="imgDiv">
+            <img src="./assets/images/homeLogo.png" alt="" class="loaderImg">
+        </div>
+    </div>
+    <div class="right-image">
+        <img src="./assets/images/pexels-njeromin-30749429.jpg" alt="Wavy Right Side Image">
+
+    </div>
+
+    <div class="switch-container">
+        <div class="slider"></div>
+        <button class="acc" id="loginSwitch">Login</button>
+        <button class="acc" id="signUpSwitch">Sign Up</button>
+    </div>
+
+    <div class="entireForm">
+        <div class="log-slider">
+            <div class="container" id="formContainer">
+                <div class="form-slider">
+
+                    <form action="#" id="loginForm" class="logForm active">
+                        <h1>Login</h1>
+
+                        <span class="logError-message"></span>
+                        <div class="signDiv emailDiv">
+                            <input type="email" id="loginEmailInput" placeholder=" " autocomplete="email" required>
+                            <label for="loginEmailInput" class="emailLabel">Email Address*</label>
+                        </div>
+                        <div class="signDiv loginPassDiv">
+                            <input type="password" id="loginPasswordInput" placeholder=" " required>
+                            <label for="loginPasswordInput" class="passLabel">Password*</label>
+                        </div>
+                        <div class="loginForgotPassword">
+                            <span>Forgot Password?</span>
+                        </div>
+                        <button id="loginSubFormBtn" type="submit">Login</button>
+                    </form>
+
+                    <form action="#" id="forgotPasswordForm" class="logForm">
+                        <div class="backBtn" id="forgotBackBtn">
+                            <i class="fa-solid fa-arrow-left fa-xl"></i>
+                        </div>
+                        <h2> Forgot Password</h2>
+                        <span class="forgotErrorMsg"></span>
+                        <div class="signDiv emailDiv">
+
+                            <input type="email" id="forgotEmailInput" placeholder=" " autocomplete="email" required>
+                            <label for="forgotEmailInput" class="emailLabel">Email Address*</label>
+                        </div>
+                        <button id="forgotSubBtn" type="submit">Send Reset Link</button>
+                    </form>
+
+                    <form action="#" id="resetOtpForm" class="logForm">
+                        <div class="backBtn" id="otpBackBtn">
+                            <i class="fa-solid fa-arrow-left fa-xl"></i>
+                        </div>
+                        <h2>Enter the OTP sent to your email to continue.</h2>
+                        <span class="otpErrorMsg">Invalid OTP.</span>
+                        <div class="signDiv otpDiv">
+                            <div id="code-input">
+                                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]*" />
+                                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]*" />
+                                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]*" />
+                                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]*" />
+                                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]*" />
+                            </div>
+
+                        </div>
+                        <div class="buttonSec">
+                            <button id="otpVerifyBtn" type="submit">Verify</button>
+                            <button id="resendOtp" type="button" disabled>Resend OTP <span class="counter"></span></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="container" id="signFormContainer">
+                <div class="form-slider">
+
+                    <form action="#" id="signUpForm" class="logForm active">
+                        <h1>Sign Up</h1>
+                        <span class="signError-message"></span>
+                        <div class="signDiv emailDiv">
+                            <input type="email" id="signUpEmailInput" placeholder=" " autocomplete="email" required>
+                            <label for="signUpEmailInput" class="emailLabel">Email Address*</label>
+                        </div>
+                        <div class="signDiv signUpPassDiv">
+                            <input type="password" id="signUpPasswordInput" placeholder=" " required>
+                            <label for="signUpPasswordInput" class="passLabel">Password*</label>
+                        </div>
+                        <div class="signDiv signUpPassDiv">
+                            <input type="password" id="confirmSignUpPasswordInput" placeholder=" " required>
+                            <label for="confirmSignUpPasswordInput" class="passLabel">Confirm Password*</label>
+                        </div>
+                        <button id="signUpFormBtn" type="submit">Create Account</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <form id="uploadForm">
+        <input type="file" id="profileImage" name="profileImage" accept="image/*" required />
+        <button type="submit">Upload</button>
+    </form> -->
+
+    <div id="result"></div>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

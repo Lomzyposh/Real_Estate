@@ -1,0 +1,427 @@
+[
+    {
+        "id": "agent001",
+        "name": "Mide Manny",
+        "companyName": "Midex Complex",
+        "profileImage": "/spiderman1.jpg",
+        "topAgent": 1,
+        "rating": 5,
+        "experience": 3,
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "priceRange": {
+            "min": 5000000,
+            "max": 20000000
+        },
+        "salesLast12Months": 9,
+        "propertiesId": [
+            "prop001"
+        ],
+        "bio": "Mide Manny is a top-performing agent at Midex Complex, known for exceptional service, market knowledge, and helping clients find their dream properties.",
+        "contact": {
+            "phone": "+1-310-555-0198",
+            "email": "mide.manny@midex.com",
+            "whatsapp": "+1-310-555-0198",
+            "website": "https://midexcomplex.com/agents/midemanny"
+        },
+        "social": {
+            "facebook": "https://facebook.com/midemanny",
+            "instagram": "https://instagram.com/mide.manny",
+            "linkedIn": "https://linkedin.com/in/midemanny"
+        },
+        "officeLocation": {
+            "address": "1234 Sunset Blvd, Los Angeles, CA 90026",
+            "city": "Los Angeles",
+            
+            "lat": 34.0928,
+            "lng": -118.3287
+        },
+        "reviews": [
+            {
+                "reviewer": "Jane Doe",
+                "rating": 5,
+                "comment": "Mide was incredibly helpful and professional throughout the process.",
+                "date": "2024-11-05"
+            },
+            {
+                "reviewer": "Carlos Reyes",
+                "rating": 4,
+                "comment": "Good communication and fast response. Would recommend!",
+                "date": "2025-02-12"
+            }
+        ],
+        "specialties": [
+            "Luxury Homes",
+            "First-Time Buyers",
+            "Investment Properties"
+        ],
+        "regionsCovered": [
+            "Los Angeles",
+            "Beverly Hills",
+            "Santa Monica"
+        ],
+        "availability": {
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Friday"
+            ],
+            "hours": "9:00 AM - 6:00 PM"
+        },
+        "certifications": [
+            "Certified Residential Specialist (CRS)",
+            "Accredited Buyer’s Representative (ABR)"
+        ],
+        "responseTime": "Typically responds in 1 hour",
+        "featured": 1,
+        "totalListings": 1,
+        "profileViews": 237,
+        "lastActive": "2025-05-18T15:23:00Z",
+        "videoIntroUrl": "https://www.youtube.com/embed/agentIntro123",
+        "badge": "Top Seller 2024"
+    },
+
+    {
+        "id": "agent002",
+        "name": "Lola Grant",
+        "companyName": "Grant & Partners Realty",
+        "profileImage": "/agent002.jpg",
+        "topAgent": 0,
+        "rating": 4.7,
+        "experience": 5,
+        "languages": [
+            "English",
+            "French"
+        ],
+
+        "priceRange": {
+            "min": 3000000,
+            "max": 15000000
+        },
+        "salesLast12Months": 12,
+        "propertiesId": [
+            "prop002",
+            "prop005"
+        ],
+        "bio": "Lola is an experienced negotiator and an advocate for her clients. Her attention to detail and local expertise make her an outstanding agent.",
+        "contact": {
+            "phone": "+1-323-555-0147",
+            "email": "lola.grant@gp-realty.com",
+            "whatsapp": "+1-323-555-0147",
+            "website": "https://gp-realty.com/lola-grant"
+        },
+        "social": {
+            "facebook": "https://facebook.com/lolagrant",
+            "instagram": "https://instagram.com/lola.grant",
+            "linkedIn": "https://linkedin.com/in/lolagrant"
+        },
+        "officeLocation": {
+            "address": "750 Ocean Ave, Santa Monica, CA 90401",
+            "city": "Santa Monica",
+            
+            "lat": 34.0100,
+            "lng": -118.4969
+        },
+        "reviews": [
+            {
+                "reviewer": "Kevin Smith",
+                "rating": 5,
+                "comment": "Lola made our home-buying process a breeze. So grateful for her guidance.",
+                "date": "2025-01-20"
+            }
+        ],
+        "specialties": [
+            "Family Homes",
+            "Condos",
+            "Relocation"
+        ],
+        "regionsCovered": [
+            "Santa Monica",
+            "Culver City",
+            "West LA"
+        ],
+        "availability": {
+            "days": [
+                "Monday",
+                "Thursday",
+                "Saturday"
+            ],
+            "hours": "10:00 AM - 4:00 PM"
+        },
+        "certifications": [
+            "Real Estate Negotiation Expert (RENE)"
+        ],
+        "responseTime": "Typically responds in 3 hours",
+        "featured": 0,
+        "totalListings": 2,
+        "profileViews": 189,
+        "lastActive": "2025-05-17T11:45:00Z",
+        "videoIntroUrl": "https://www.youtube.com/embed/lolagrantIntro",
+        "badge": "Client Favorite"
+    },
+
+    {
+        "id": "agent003",
+        "name": "Tunde Blake",
+        "companyName": "Blake Estates Group",
+        "profileImage": "/agent003.jpg",
+        "topAgent": 1,
+        "rating": 4.9,
+        "experience": 7,
+        "languages": [
+            "English",
+            "Yoruba"
+        ],
+
+        "priceRange": {
+            "min": 10000000,
+            "max": 50000000
+        },
+        "salesLast12Months": 18,
+        "propertiesId": [
+            "prop003",
+            "prop007",
+            "prop010"
+        ],
+        "bio": "Tunde Blake leads Blake Estates Group with integrity and innovation, specializing in luxury estates and premium urban living.",
+        "contact": {
+            "phone": "+1-424-555-0177",
+            "email": "tunde.blake@blakeestates.com",
+            "whatsapp": "+1-424-555-0177",
+            "website": "https://blakeestates.com/tunde"
+        },
+        "social": {
+            "facebook": "https://facebook.com/tundeblake",
+            "instagram": "https://instagram.com/tunde.blake",
+            "linkedIn": "https://linkedin.com/in/tundeblake"
+        },
+        "officeLocation": {
+            "address": "85 Park Lane, Beverly Hills, CA 90210",
+            "city": "Beverly Hills",
+            
+            "lat": 34.0736,
+            "lng": -118.4004
+        },
+        "reviews": [
+            {
+                "reviewer": "Angela White",
+                "rating": 5,
+                "comment": "Tunde knows luxury like no one else. Seamless experience all the way.",
+                "date": "2025-03-15"
+            },
+            {
+                "reviewer": "Sam Obafemi",
+                "rating": 5,
+                "comment": "His professionalism and local knowledge are top-tier.",
+                "date": "2025-04-10"
+            }
+        ],
+        "specialties": [
+            "Luxury Estates",
+            "Urban Lofts",
+            "Architectural Homes"
+        ],
+        "regionsCovered": [
+            "Beverly Hills",
+            "Hollywood Hills",
+            "Westwood"
+        ],
+        "availability": {
+            "days": [
+                "Tuesday",
+                "Wednesday",
+                "Saturday"
+            ],
+            "hours": "11:00 AM - 7:00 PM"
+        },
+        "certifications": [
+            "Luxury Home Marketing Specialist (CLHMS)",
+            "Master Certified Negotiation Expert (MCNE)"
+        ],
+        "responseTime": "Typically responds in 2 hours",
+        "featured": 1,
+        "totalListings": 3,
+        "profileViews": 421,
+        "lastActive": "2025-05-19T10:12:00Z",
+        "videoIntroUrl": "https://www.youtube.com/embed/tundeblakeIntro",
+        "badge": "Luxury Expert"
+    },
+
+    {
+        "id": "agent004",
+        "name": "Jasmine Holloway",
+        "companyName": "Prime Homes Realty",
+        "profileImage": "/agent004.jpg",
+        "topAgent": 1,
+        "rating": 4.9,
+        "experience": 7,
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+
+        "priceRange": {
+            "min": 8500000,
+            "max": 45000000
+        },
+        "salesLast12Months": 22,
+        "propertiesId": [
+            "prop005",
+            "prop009",
+            "prop008"
+        ],
+        "bio": "Jasmine Holloway is a seasoned expert in luxury and waterfront homes throughout Los Angeles. Her creative design background and personalized service have earned her a loyal client base.",
+        "contact": {
+            "phone": "+1-213-555-0194",
+            "email": "jasmine.holloway@primehomes.com",
+            "whatsapp": "+1-213-555-0194",
+            "website": "https://primehomes.com/jasmine"
+        },
+        "social": {
+            "facebook": "https://facebook.com/jasmine.holloway.realtor",
+            "instagram": "https://instagram.com/jasminehomes_la",
+            "linkedIn": "https://linkedin.com/in/jasmineholloway"
+        },
+        "officeLocation": {
+            "address": "123 Sunset Blvd, Los Angeles, CA 90028",
+            "city": "Los Angeles",
+            
+            "lat": 34.0983,
+            "lng": -118.3267
+        },
+        "reviews": [
+            {
+                "reviewer": "Melissa Tran",
+                "rating": 5,
+                "comment": "Jasmine made our luxury home purchase so smooth and enjoyable.",
+                "date": "2025-03-28"
+            },
+            {
+                "reviewer": "Carlos Medina",
+                "rating": 4.8,
+                "comment": "She knows the market and delivers results fast. Highly recommended!",
+                "date": "2025-04-19"
+            }
+        ],
+        "specialties": [
+            "Luxury Homes",
+            "Waterfront Properties",
+            "Relocations"
+        ],
+        "regionsCovered": [
+            "Bel Air",
+            "Malibu",
+            "Brentwood"
+        ],
+        "availability": {
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "hours": "10:00 AM - 6:00 PM"
+        },
+        "certifications": [
+            "Certified Luxury Home Marketing Specialist (CLHMS)",
+            "Accredited Buyer’s Representative (ABR)"
+        ],
+        "responseTime": "Typically responds in 1 hour",
+        "featured": 1,
+        "totalListings": 3,
+        "profileViews": 389,
+        "lastActive": "2025-05-19T09:32:00Z",
+        "videoIntroUrl": "https://www.youtube.com/embed/jasmineIntro",
+        "badge": "Top LA Agent"
+    },
+
+    {
+    "id": "agent005",
+    "name": "Marcus Lee",
+    "companyName": "Coastal View Realty",
+    "profileImage": "/agent005.jpg",
+    "topAgent": 0,
+    "rating": 4.8,
+    "experience": 10,
+    "languages": [
+        "English",
+        "Mandarin"
+    ],
+    "priceRange": {
+        "min": 6000000,
+        "max": 35000000
+    },
+    "salesLast12Months": 27,
+    "propertiesId": [
+        "prop006",
+        "prop010",
+        "prop003"
+    ],
+    "bio": "Marcus Lee brings deep market insight and negotiation expertise to the dynamic Miami real estate scene. His multilingual skills and professionalism have helped countless clients find their ideal properties.",
+    "contact": {
+        "phone": "+1-305-555-0247",
+        "email": "marcus.lee@coastalviewrealty.com",
+        "whatsapp": "+1-305-555-0247",
+        "website": "https://coastalviewrealty.com/marcus"
+    },
+    "social": {
+        "facebook": "https://facebook.com/marcusleerealtor",
+        "instagram": "https://instagram.com/marcuslee.mia",
+        "linkedIn": "https://linkedin.com/in/marcuslee-miami"
+    },
+    "officeLocation": {
+        "address": "247 Ocean Drive, Miami Beach, FL 33139",
+        "city": "Miami Beach",
+        
+        "lat": 25.7743,
+        "lng": -80.1347
+    },
+    "reviews": [
+        {
+            "reviewer": "Chloe Zhang",
+            "rating": 4.9,
+            "comment": "Marcus made my condo purchase experience effortless and enjoyable.",
+            "date": "2025-04-01"
+        },
+        {
+            "reviewer": "James Parker",
+            "rating": 4.7,
+            "comment": "Very knowledgeable about the Miami market. Great service overall.",
+            "date": "2025-05-05"
+        }
+    ],
+    "specialties": [
+        "Condominiums",
+        "First-Time Buyers",
+        "Investment Properties"
+    ],
+    "regionsCovered": [
+        "Downtown Miami",
+        "Brickell",
+        "Miami Beach"
+    ],
+    "availability": {
+        "days": [
+            "Tuesday",
+            "Thursday",
+            "Sunday"
+        ],
+        "hours": "9:00 AM - 5:00 PM"
+    },
+    "certifications": [
+        "Certified Residential Specialist (CRS)",
+        "e-PRO Certification"
+    ],
+    "responseTime": "Typically responds in 3 hours",
+    "featured": 0,
+    "totalListings": 3,
+    "profileViews": 314,
+    "lastActive": "2025-05-19T10:00:00Z",
+    "videoIntroUrl": "https://www.youtube.com/embed/marcusleeIntro",
+    "badge": "Trusted Advisor"
+    }
+
+
+]

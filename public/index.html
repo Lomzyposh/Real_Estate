@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        input {
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        select {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="agentList">
+
+    </div>
+
+    <div id="propForm">
+        <h2>Property INSERTION</h2>
+        <input type="text" id="propTitle" placeholder="Enter Title">
+        <input type="text" id="propType" placeholder="Enter Type">
+        <input type="number" id="propPrice" placeholder="Enter Price">
+        <select id="city">
+            <option value="" disabled selected>Select City</option>
+            <option value="California">California</option>
+            <option value="Los Angeles">LOS Angeles</option>
+            <option value="Georgia">Georgia</option>
+        </select>
+
+        <button id="submitPropInfo">Save Property</button>
+    </div>
+
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

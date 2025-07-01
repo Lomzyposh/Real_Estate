@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .icon {
+    display: flex;
+    gap: 10px;
+}
+
+header ul.gen {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+#sideMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    user-select: none;
+    display: none;
+    transition: .5s ease-in-out;
+}
+
+#sideMenu .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#sideMenu.show {
+    display: block;
+}
+
+.side {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.side .gen {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.side .gen li {
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.side .gen li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+    width: 100%;
+}
+
+.side .gen li a:hover {
+    color: #007BFF;
+}
+
+.dropdownMenu ul {
+    display: none;
+    list-style: none;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.dropdownMenu i {
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.side .log {
+    margin-top: auto;
+    text-align: center;
+}
+
+.side .log a {
+    text-decoration: none;
+}
+
+.gen a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    color: #004D40;
+    font-weight: 500;
+    padding: 7px 0;
+}
+
+.gen a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: 2px;
+    background-color: #004D40;
+    transition: transform 0.3s ease;
+}
+
+.gen a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.dropdownMenu li {
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.dropdownMenu span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dropdownMenu #arrow {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dropdownMenu #arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.dropdownMenu {
+    position: relative;
+}
+
+.dropdownMenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px 0;
+    min-width: 150px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.dropdownMenu ul.active {
+    display: flex;
+}
+
+
+/* Dropdown links */
+.dropdownMenu ul li {
+    padding: 10px 20px;
+    transition: background 0.2s;
+}
+
+.dropdownMenu ul li:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdownMenu ul li a {
+    color: #333;
+    font-size: 15px;
+    display: block;
+}
+
+.log a {
+    padding: 10px;
+    background-color: #0c594c;
+    border-radius: 15px;
+    color: white;
+    box-shadow:
+        inset 0px 2px 4px rgba(255, 255, 255, 0.3),
+        inset 0px -2px 4px rgba(0, 0, 0, 0.5),
+        0 6px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.log a:hover {
+    top: 2px;
+    box-shadow:
+        inset 0 2px 4px rgba(255, 255, 255, 0.2),
+        inset 0px -2px 4px rgba(0, 0, 0, 0.5),
+        0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.log a:active {
+    background-color: #01705d;
+}
+
+.hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    z-index: 200;
+    position: relative;
+    margin-bottom: 6px;
+    transition: .5s ease;
+}
+
+.line {
+    height: 4px;
+    width: 28px;
+    background: #004D40;
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    position: absolute;
+}
+
+.line:nth-child(1) {
+    top: 8px;
+}
+
+.line:nth-child(2) {
+    top: 16px;
+}
+
+.line:nth-child(3) {
+    top: 24px;
+}
+
+.hamburgerMenu.active .line:nth-child(1) {
+    transform: rotate(45deg);
+    top: 16px;
+}
+
+.hamburgerMenu.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburgerMenu.active .line:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 16px;
+}
+
+/* Hide nav menu on mobile */
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    ul.gen {
+        position: fixed;
+        top: -20px;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 40px !important;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+        transition: left 0.3s ease;
+        z-index: 150;
+    }
+
+    ul.gen li {
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+
+    .buyDrop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul.gen.show {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: flex;
+        /* margin-left: auto; */
+    }
+
+    .dropdownMenu ul {
+        width: 100%;
+    }
+}
